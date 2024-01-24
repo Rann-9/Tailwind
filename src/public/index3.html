@@ -1,12 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Container</title>
     <link rel="stylesheet" href="/src/public/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+    <h1 class="font-poppins text-center text-5xl font-medium">Container</h1>
+    <hr class="bg-slate-500 h-[4px]">
+    <div class="container mt-8 mx-auto px-5">
+        <div class="bg-white p-5 shadow-lg rounded-lg relative">
+            <div class="rounded-full bg-rose-300 w-10 h-10 flex absolute -top-5 right-0">
+                <span class="m-auto">❌</span>
+            </div>
+            <img src="/src/public/image/photo-1601314944156-acfa8db25c2c.jpeg" width="200" height="200"
+                class="rounded-lg float-start mr-3" alt="">
+            <p class="text-justify font-poppins font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Harum sint illum eligendi molestias illo libero,
+                tenetur eveniet animi? Veniam necessitatibus laudantium id atque itaque deleniti omnis? Velit voluptatem
+                magni, officia voluptatibus, voluptate atque iste ratione nobis, doloremque dicta inventore earum
+                consectetur reiciendis fuga. Fuga facere veritatis excepturi asperiores dignissimos aperiam! Fuga
+                doloremque deserunt veniam optio repudiandae totam. Dignissimos enim a sequi vitae aliquid sed labore
+                dolorum molestias eveniet consequatur dolore distinctio incidunt quo nulla ut nihil quibusdam, sint cum
+                est temporibus, laudantium dolores sunt veniam harum! Provident, animi vero voluptatum, unde omnis
+                dolores eaque officiis officia, earum quas quo cum.</p>
+            <hr class="bg-slate-500 h-[4px] mt-4">
+        </div>
+    </div>
+    <div class="container mt-8 mx-auto px-5">
+        <div class="bg-white p-5 shadow-lg rounded-lg relative">
+            <div class="rounded-full bg-rose-300 w-10 h-10 flex absolute -top-5 -translate-x-1/2 right-1/2">
+                <span class="m-auto">❌</span>
+            </div>
+            <img src="/src/public/image/photo-1601314944156-acfa8db25c2c.jpeg" width="200" height="200"
+                class="rounded-lg float-end mr-3" alt="">
+            <p class="text-justify font-poppins font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Harum sint illum eligendi molestias illo libero,
+                tenetur eveniet animi? Veniam necessitatibus laudantium id atque itaque deleniti omnis? Velit voluptatem
+                magni, officia voluptatibus, voluptate atque iste ratione nobis, doloremque dicta inventore earum
+                consectetur reiciendis fuga. Fuga facere veritatis excepturi asperiores dignissimos aperiam! Fuga
+                doloremque deserunt veniam optio repudiandae totam. Dignissimos enim a sequi vitae aliquid sed labore
+                dolorum molestias eveniet consequatur dolore distinctio incidunt quo nulla ut nihil quibusdam, sint cum
+                est temporibus, laudantium dolores sunt veniam harum! Provident, animi vero voluptatum, unde omnis
+                dolores eaque officiis officia, earum quas quo cum.</p>
+            <hr class="bg-slate-500 h-[4px] mt-4">
+        </div>
+    </div>
+
+    <h1 class="text-5xl font-poppins text-center">Grid</h1>
+    <hr class="bg-slate-500 h-[4px]">
+    <div class="mt-5 grid grid-cols-1">
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit
+                optio culpa magnam quod nostrum enim, magni labore. Cumque tempora a, hic facere quia molestiae esse in
+                quam eius vel nulla enim quaerat suscipit veniam et, odio doloribus odit. Sequi quod nostrum sunt nisi
+                consequatur eligendi repellendus obcaecati deserunt, sapiente nemo tempore, id voluptas aut beatae nulla
+                est vero ex. Vel, porro iusto! Dicta suscipit alias earum iusto repellendus neque distinctio quae,
+                temporibus commodi accusantium recusandae, explicabo atque dolores enim cupiditate. Maiores repudiandae
+                veritatis quos alias dicta inventore expedita mollitia obcaecati, rerum, sapiente eius maxime sequi esse
+                voluptates velit nisi.</p>
+        </div>
+    </div>
+
+    <div class="mt-5 grid grid-cols-2">
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+    </div>
+
+    <div class="mt-5 grid grid-cols-3">
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+    </div>
+
+    <div class="mt-5 grid grid-cols-4">
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+    </div>
+
+    <div class="mt-5 grid grid-cols-5">
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+    </div>
+
+    <div class="mt-5 grid grid-cols-6">
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit
+                ducimus assumenda temporibus dolorum maiores aliquam laborum, inventore adipisci voluptatem.</p>
+        </div>
+    </div>
+
+    <div class="mt-5 grid grid-cols-7">
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="bg-sky-300 px-3 py-2 mx-2 rounded-md">
+            <p class="font-poppins font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
 </body>
+
 </html>
