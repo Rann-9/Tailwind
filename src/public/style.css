@@ -1154,6 +1154,18 @@ video {
   text-decoration-line: underline;
 }
 
+.decoration-red-600 {
+  text-decoration-color: #dc2626;
+}
+
+.decoration-dotted {
+  text-decoration-style: dotted;
+}
+
+.decoration-4 {
+  text-decoration-thickness: 4px;
+}
+
 .underline-offset-1 {
   text-underline-offset: 1px;
 }
